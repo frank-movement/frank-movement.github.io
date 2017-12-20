@@ -129,13 +129,14 @@ body {
   text-decoration: none;
 }
 .typeImg {
+  max-width: 200px;
   width: 50%;
   padding-bottom: 1em;
 }
 .typeText {
   width: 90%;
   padding: 1em;
-  max-width: 500px;
+  max-width: 300px;
   font-size: 18px;
 }
 .typeBox {
@@ -166,10 +167,10 @@ body {
   background-color: #75C3CF;
 }
 .type .colorbox.S {
-  background-color: #884E8E;
+  background-color: #E75C3E;
 }
 .type .colorbox.N {
-  background-color: #E75C3E;
+  background-color: #884E8E;
 }
 .type .colorbox.T {
   background-color: #36433B;
@@ -184,6 +185,7 @@ body {
   background-color: #5AA82B;
 }
 .footer {
+  max-width: 400px;
   width: 100%;
   display: flex;
   -webkit-justify-content: space-between;
@@ -197,6 +199,7 @@ body {
   padding: 1em;
 }
 .header {
+  max-width: 400px;
   width: 100%;
   display: flex;
   -webkit-justify-content: space-between;
@@ -227,6 +230,7 @@ body {
 }
 .cirbar {
   width: 100%;
+  max-width: 400px;
   display: flex;
   -webkit-justify-content: space-evenly;
   -ms-justify-content: space-evenly;
